@@ -8,10 +8,10 @@
 
 #You can download the sample data at http://www.py4e.com/code3/mbox-short.txt
 
-fname = input("Enter file name: ")
-if len(fname) < 1 : fname = "mbox-short.txt"
+name = input("Enter file name: ")
+if len(name) < 1 : name = "mbox-short.txt"
 emptylist = list()
-fh = open(fname)
+fh = open(name)
 count = 0
 for line in fh:
     line = line.rstrip()
